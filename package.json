@@ -1,0 +1,24 @@
+{
+  "name": "xxx",
+  "version": "1.0.0",
+  "description": "MCP + SignalR 服务器",
+  "main": "mcp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "signalr",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.1",
+    "fastmcp": "^3.11.0",
+    "zod": "^3.25.76"
+  }
+}
